@@ -1,5 +1,6 @@
 <!-- 	Author: Stefan Lang - PLUS 
-		Creation Date: Apr 2021 
+		Creation Date: Apr 2021
+		Latest Update: Apr 2022 
 		
 		IMPORTANT NOTICES FOR USERS/AUTHORS: 
 		SECTIONS TO BE EDITED BY AUTHORS ARE INDICATED AS FOLLOWS:  <!-- AUTHORS: DEFINE ... --> 
@@ -86,9 +87,10 @@
 				<!-- AUTHORS: DEFINE CONTENT ON YOUR FIRST SLIDE --> 
 				<section >
 					<h1>What is "Copernicus"?</h1>
-					<br><h3 style="color:#89b3e479;">A multi-lingual introductory course on the European Space programme Copernicus </h3>
+					<br><h3 style="color:#89b3e479;">An introductory self-paced course on the European Earth observation programme </h3>
+					<img src="https://eo4geo.sbg.ac.at/PLUS/Cop_Intro/C_CopernicusLogo.png" width=60% height=60% alt="Copernicus logo">
 					<br><p>Assoc-Prof Dr Stefan LANG, University of Salzburg</p>
-						<p><small>NB: using the "translate" function of your browser, you should be able to follow this course in your own language.</small></p>
+						<p><small>NB: This course is optimised for multi-lingual usage. With the "translate" function of your browser, you should be able to follow this course in your own language.</small></p>
 				<!-- AUTHORS: PUT YOUR PRESENTER NOTES HERE: -->
 				<aside class="notes">
 					Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit »S« on your keyboard).
@@ -412,7 +414,7 @@
 					
 					<section>
 						<h2 style="color:#bbb7a8;">Interoperable Web Services and Specifications</h2>
-						<p>Web services as defined by the <b> Open Geospatial Consortium</b><a href="http://www.opengis.net/ogc">(OGC)</a> enable geospatial 
+						<p>Web services as defined by the <b> Open Geospatial Consortium</b> <a href="http://www.opengis.net/ogc">(OGC)</a> enable geospatial 
 							information to be sourced from the web, independent of the software environment or browser. Interoperable web services such as 
 							<b>WMS</b>, <b>WCS</b>, etc. are distinguished according to certain usage scenarios and related capabilities (viewing/background, analysis, etc.)</p>
 						<small>
@@ -434,38 +436,54 @@
 					</section>
 					
 					<section>
-						<h2 style="color:#bbb7a8;">Example: SentinelHub (plug-in) for QGIS</h2>
+						<h2 style="color:#bbb7a8;">Example #1: SentinelHub (plug-in) for QGIS</h2>
 						<p>The Sentinel Hub provides access to Sentinel-1, Sentinel-2, Landsat and MODIS image archives with a range of pre-defined 
 							band combinations and visualisation techniques. </p>
 						<a href="sentinel-hub.com/develop/api/ogc/standard-parameters/"></a>
 						<img width="800" height="300" data-src="https://eo4geo.sbg.ac.at/PLUS/Cop_Intro/C_SentinelHub.png" alt="QGIS Sentinel Hub">
-						<small> Use Sentinel Hub plug-in for directly accessing Sentinel-2 data in QGIS. </small>
+						<small> The Sentinel Hub plug-in enables you to directly access Sentinel-2 data in QGIS. </small>
 					
 					</section>
 
 					<section>
-						<h2 style="color:#bbb7a8;">Example: CLMS Global Land Monitoring product access</h2>
-						<p>Different products are <a href="https://land.copernicus.eu/global/access">accessible</a> including <b>Interactive notebooks</b>, <b>Web services</b>, <b>Virtual Machines</b>, <b>Manifest files</b>, etc.</p>
+						<h2 style="color:#bbb7a8;">Example #2: Copernicus Global Land Monitoring (global CLMS component) </h2>
+						<p>Different products are <a href="https://land.copernicus.eu/global/access">accessible</a> including <i>interactive notebooks</i>, <i>web services</i>, <i>virtual machines</i>, <i>manifest files</i>, etc.</p>
 						<img width="800" height="200" data-src="https://eo4geo.sbg.ac.at/PLUS/Cop_Intro/C_CLMS_access.png" alt="CLMS product access">
-						<small>Product channels of CLMS</small>
+						<small>Product access of the CLMS global component</small>
 					
 					</section>
 
 					<section>
-						<h2 style="color:#bbb7a8;">Example: C3S Climate Data Store </h2>
-						<p>The C3S Climate Data Store <a href="https://cds.climate.copernicus.eu/#!/home">(CDS)</a> provides an API for Phython-based 
+						<h2 style="color:#bbb7a8;">Example #2: [cont.]</h2>
+						<p><b>Interactive notebooks</b> realised as Jupyter Notebooks in the VITO Terrascope environment, querying Proba-V data stacks using OpenEO functions and libraries.
+						<img width="800" height="400" data-src="https://eo4geo.sbg.ac.at/PLUS/Cop_Intro/C_CLMS_access2.png" alt="CLMS product access">
+						<small>Proba-V MEP refers to the mission exploitation platform of the Proba-V experimental satellite (operated by ESA and VITO). Open EO is an open AI to connect clients to big EO cloud back-ends.</small>
+					
+					</section>
+
+					<section>
+						<h2 style="color:#bbb7a8;">Example #2: [cont.]</h2>
+						<p><b>Web services</b> are web-based application programming interfaces (API) that allow for a flexible access of web-based sources based on standardised interfaces. 
+						<img width="800" height="300" data-src="https://eo4geo.sbg.ac.at/PLUS/Cop_Intro/C_CLMS_access3.png" alt="CLMS product access">
+						<small>A series of web services are available for harvesting web sources in a GIS environment (ArcGIS, QGIS, etc.)</small>
+					
+					</section>
+
+					<section>
+						<h2 style="color:#bbb7a8;">Example #3: C3S Climate Data Store </h2>
+						<p>The C3S Climate Data Store <a href="https://cds.climate.copernicus.eu/#!/home">(CDS)</a> provides an API for Python-based 
 						data access</p>
 						<img width="800" height="400" data-src="https://eo4geo.sbg.ac.at/PLUS/Cop_Intro/C_C3S_DataStore.jpg" alt="C3S data store">
-						<br><small>C3S CDS</small>
+						<br><small>The C3S Climate Data Store interface</small>
 					
 					</section>
 
 					<section>
-						<h2 style="color:#bbb7a8;">Example: CAMS air quality maps</h2>
+						<h2 style="color:#bbb7a8;">Example #4: CAMS air quality maps</h2>
 						<p>CAMS provides services for continous monitoring the air quality in Europe and globally. 
 							The <a href="https://atmosphere.copernicus.eu/european-air-quality-information-support-covid-19-crisis">service</a> integrates satellite and ground-based observations and advanced numerical models air quality maps </p>
 						<img width="600" height="400" data-src="https://eo4geo.sbg.ac.at/PLUS/Cop_Intro/C_CAMS_Airqual.jpg" alt="CLMS WMS">
-						<br><small>Continous information products on air quality</small>
+						<br><small>Continuous information products on air quality</small>
 					
 					</section>
 					
